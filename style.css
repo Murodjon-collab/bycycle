@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    height: 875px;
+    background:url(1.png);
+    margin-bottom: 150px;
+}
+.container{
+    margin: auto;
+    width: 1400px;
+}
+.header_item{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 250px;
+    height: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.header_item a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.footer_logo img{
+    margin-left: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+    align-items: center;
+}
+
+.cofe{
+    font-size: 80px;
+    width: 679px;
+
+
+
+    font-family:"Roboto", sans-serif ;
+    color: white;
+}
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.btn{
+    background-color: #F57520;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header_coffee a{
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 10px;
+     
+}
+.header_coffee p{
+    margin-bottom: 40px;
+    color: white;
+    width: 645px;
+height: 87px;
+font-size: 18px;
+margin-top: 30px;
+
+
+}
+.header_info{
+    margin-right: 100px;
+}
+.header_item a:hover{
+    color: #F57520;
+}
